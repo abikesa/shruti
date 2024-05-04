@@ -9,3 +9,13 @@
 9. Work on GitHub and more
 10. Simulate every national database and create automated online courses for students to strengthen their teeth
 11. As Colleen about this, consider Tanjela an ally
+12. Faculty, students, mentees, community
+    - Workshops to train interested faculty
+    - Consultating services for the uninterested
+    - Seminars for the students
+    - TA opportunities
+13. Network effects
+    - Across the departments programs
+    - Interdepartmental
+    - School of Medicine
+    - Etc
