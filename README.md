@@ -19,3 +19,10 @@
     - Interdepartmental
     - School of Medicine
     - Etc
+14. A joy to watch students' creativity unleashed in Stata II Project
+15. Bring out the artist in all these scientists in the "Open Science" endeavors
+16. They're already well-versed with curation of Instagram; lets do this to GitHub
+17. Harness all that "openness" of the Gen-Z in the "Open Science" Initiative
+18. Innovative simulations to train scripts and students in handling disclosure risk
+19. Advanced class for `id_rsa` of actual data
+20. Etc. 
