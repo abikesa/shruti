@@ -25,4 +25,4 @@
 17. Harness all that "openness" of the Gen-Z in the "Open Science" Initiative
 18. Innovative simulations to train scripts and students in handling disclosure risk
 19. Advanced class for `id_rsa` of actual data
-20. Etc. 
+20. Designing a website/repo for collaboration takes about 2min and requires zero knowledge of anything
