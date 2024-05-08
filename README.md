@@ -27,7 +27,7 @@
 19. Advanced class for `id_rsa` of actual data
 20. Designing a website/repo for collaboration takes about 2min and requires zero knowledge of anything
 
-# `#1` But really still in the Stone Age
+# [#1](https://www.usnews.com/best-graduate-schools/johns-hopkins-university-162928/overall-rankings) But really still in the Stone Age
 
 We top ranking in 2024/2025 in the following:
 1. Engineering
