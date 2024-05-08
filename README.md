@@ -26,3 +26,25 @@
 18. Innovative simulations to train scripts and students in handling disclosure risk
 19. Advanced class for `id_rsa` of actual data
 20. Designing a website/repo for collaboration takes about 2min and requires zero knowledge of anything
+
+# `#1` But really still in the Stone Age
+
+We top ranking in 2024/2025 in the following:
+1. Engineering
+   - Biomedical Engineering
+2. Medical
+   - Anesthesiology
+   - Internal Medicine
+   - Surgery
+3. Nursing
+   - Master's
+   - DNP NP: Adult/Gerontology, Primary Care
+   - DNP NP: Psychiatric/Metnal Health, Across the Lifespan
+   - Schools: Doctor of Nursing Practice
+4. Biostatistics
+5. Public Health
+   - School
+   - Environmental Health Sciences
+   - `Epidemiology`
+   - Health Policy and Management
+   - Social and Behavioral Sciences
