@@ -1,4 +1,9 @@
-0. Jupyter-book as one-stop shop for `P.AI.R.S`
+0. Jupyter-book as one-stop shop for `P.AI.R.S` & Epi Transformation
+   - Number of deployments
+   - Speed of deployments
+   - Iterative improvements
+   - Great artists ship
+   - Peasant > Farmer > `Manufacturer-Compute` > Energy > `Transportation-Deployment`
 1. Two-year consultancy with 1yr trial
 2. Completely transform Epi department
 3. Every lecture via a JupyterBook
