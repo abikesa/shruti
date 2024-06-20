@@ -1,7 +1,14 @@
+> At Hopkins and in academia in general, each cohort of epi students reinvents the wheel         
+By contrast, in silicon valley, and the tech industry, each cohort inherits software and platforms from their predecessors           
+[Cumulative advancements](https://abikesa.github.io/why-python/) are self-evident in their products, sales, revenues, and global reach       
+This is something we should aspire to 
+
+![](https://abikesa.github.io/why-python/pyton.png)
+
 0. Jupyter-book as one-stop shop for `P.AI.R.S` & Epi Transformation
    - Number of deployments
    - Speed of deployments
-   - Iterative improvements
+   - [Iterative](https://abikesa.github.io/zarathustra/) improvements
    - Great artists ship
    - Peasant > Farmer > `Manufacturer-Compute` > Energy > `Transportation-Deployment`
 1. Two-year consultancy with 1yr trial
