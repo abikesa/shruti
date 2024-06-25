@@ -22,7 +22,7 @@
    - Our webApps are incoporating matrix-math into their infrastructure
    - Will speed up simulations & updates based on most current literature
    - Start to use powerful simulations with limitless variables as didactic
-   - Bayesian *a priori* may now be expressed by anyone casually via webApp
+   - Bayesian *`a priori`* may now be expressed by anyone casually via webApp
 
 #
 
