@@ -1,0 +1,1026 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Stable &#8212; Disrupting Epi</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.5ea377869091fd0449014c60fc090103.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-dropdown.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-bootstrap.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'act3/part3/part3_3';</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Certainty, γ 😃 ⭕️" href="../../bibliography.html" />
+    <link rel="prev" title="Normative" href="part3_2.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="https://publichealth.jhu.edu/sites/default/files/styles/profile/public/images/691.jpeg?h=a56ff997&itok=e-5sGYsv" class="logo__image only-light" alt="Disrupting Epi - Home"/>
+    <script>document.write(`<img src="https://publichealth.jhu.edu/sites/default/files/styles/profile/public/images/691.jpeg?h=a56ff997&itok=e-5sGYsv" class="logo__image only-dark" alt="Disrupting Epi - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../index.html">
+                    Probability, ∂Y 🎶 ✨ 👑
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../act1/part1.html">Deception, <em>-kσ</em> ☭⚒🥁</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../act1/chapter1.html">Life</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../act1/chapter2.html">Ecosystem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../act1/chapter3.html">Resilience</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../act2/part2.html">Strategy, <em>α</em> 🔪 🩸 🐐 vs 🐑</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../act2/chapter1.html">Prometheus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../act2/chapter2.html">Duality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../act2/chapter3.html">Apollo &amp; Dionysus</a></li>
+
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../part3.html">Knowledge, X<em>β</em> 🎹</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2 has-children"><a class="reference internal" href="../act1.html">Weaponized 🌊</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../part1/part1_1.html">Transvaluation</a></li>
+
+<li class="toctree-l3"><a class="reference internal" href="../part1/part1_2.html">Revolution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../part1/part1_3.html">Veiled Resentment</a></li>
+
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../act2.html">Tokenized ⚓️</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../part2/part2_1.html">Freedom in Fetters</a></li>
+
+<li class="toctree-l3"><a class="reference internal" href="../part2/part2_2.html">Dancing in Chains</a></li>
+
+<li class="toctree-l3"><a class="reference internal" href="../part2/part2_3.html">Born-to-Etiquette ☔️</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 current active has-children"><a class="reference internal" href="../act3.html">Monopolized 🧭</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="part3_1.html">Traditional</a></li>
+<li class="toctree-l3"><a class="reference internal" href="part3_2.html">Normative</a></li>
+
+<li class="toctree-l3 current active"><a class="current reference internal" href="#">Stable</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="../../bibliography.html">Certainty, <em>γ</em> 😃 ⭕️</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/abikesa/template/main?urlpath=tree/book/website/act3/part3/part3_3.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Binder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Binder logo" src="../../_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/act3/part3/part3_3.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Stable</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#neural-correlates">Neural Correlates</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#philosophical-fit-bacon-aristotle-plato">Philosophical Fit: Bacon, Aristotle, Plato</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#synthesis-and-tension">Synthesis and Tension</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#epilogue-intelligence-progress-vs-wisdom-preservation">Epilogue: Intelligence (Progress) vs. Wisdom (Preservation)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#nietzsches-uses-and-abuses">Nietzsche’s Uses and Abuses</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#retake-intelligence-progress-vs-wisdom-preservation-in-a-shifting-landscape">Retake: Intelligence (Progress) vs. Wisdom (Preservation) in a Shifting Landscape</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#postscript-query">Postscript Query</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#response-to-nietzsches-on-the-uses-and-abuses-of-history-for-life">Response to Nietzsche’s <em>On the Uses and Abuses of History for Life</em></a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#nietzsches-framework-and-your-reading">Nietzsche’s Framework and Your Reading</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#accuracy-verdict">Accuracy Verdict</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#your-question-is-the-dmn-antiquarian">Your Question: Is the DMN Antiquarian?</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#final-thought">Final Thought</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-murdoch-s">The Murdoch’s</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#james-as-tpn-task-positive-network">James as TPN (Task-Positive Network)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rupert-as-sn-salience-network">Rupert as SN (Salience Network)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lachlan-as-dmn-default-mode-network">Lachlan as DMN (Default Mode Network)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion">Conclusion</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pairs-jh">1 PAIRS@JH</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#elevator-pitch-for-python">Elevator Pitch for Python</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#heres-why">Here’s why:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#elevator-pitch">2 Elevator Pitch</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-books">3 Jupyter-books</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#github">4. GitHub</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="stable">
+<span id="id1"></span><h1>Stable<a class="headerlink" href="#stable" title="Permalink to this heading">#</a></h1>
+<p><strong>Does Intelligence Risk Old Wisdom? A Neuro-Philosophical Inquiry</strong></p>
+<p>The question “Does intelligence risk old wisdom?” reverberates through human history, from ancient dialogues to modern neural circuits. To probe this, consider the equation “(exposome + transcriptome)/genome” as a scaffold: the genome embodies old wisdom—enduring truths etched in tradition—while the exposome (lived experience) and transcriptome (adaptive expression) reflect intelligence’s restless evolution. In the brain, this maps onto the task-positive network (TPN), salience network (SN), and default mode network (DMN)—systems that mirror the tension between progress and preservation. By aligning these with Francis Bacon’s empiricism, Aristotle’s balance, and Plato’s idealism, we can explore how intelligence reshapes wisdom, culminating in a Nietzschean reflection on history’s uses and abuses.</p>
+<section id="neural-correlates">
+<h2>Neural Correlates<a class="headerlink" href="#neural-correlates" title="Permalink to this heading">#</a></h2>
+<figure class="align-default" id="id2">
+<a class="reference internal image-reference" href="../../_images/intelligence-wisdom.jpg"><img alt="../../_images/intelligence-wisdom.jpg" src="../../_images/intelligence-wisdom.jpg" style="width: 40%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 41 </span><span class="caption-text">Intelligence, in its relentless pursuit of progress, often risks severing itself from old wisdom, a tension mapped onto the brain’s task-positive (TPN), salience (SN), and default mode networks (DMN). While TPN-driven intelligence dissects, innovates, and disrupts—echoing Bacon’s empiricism—DMN preserves tradition, aligning with Plato’s idealism, and SN arbitrates like Aristotle’s balance. The equation “(exposome + transcriptome)/genome” reflects this dynamic, where intelligence (TPN + SN) constantly reinterprets wisdom (DMN), sometimes to its own detriment. Nietzsche, in <em>On the Uses and Abuses of History for Life</em>, warns that unchecked intelligence risks creating “historical invalids”—data-rich but meaning-poor. The Wall Street Journal’s 2025 report on parents shifting from tech to the humanities underscores this risk: progress without preservation may leave future generations vulnerable, prompting a renewed embrace of craft, narrative, and embodied wisdom. The question is not whether intelligence endangers wisdom, but whether it can sculpt it without erasing its roots.</span><a class="headerlink" href="#id2" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>The TPN, active during focused problem-solving, aligns with the transcriptome—intelligence’s dynamic expression. It drives analysis, innovation, and goal-directed action, akin to a scientist dissecting nature or an AI optimizing code. The exposome, the sum of external influences, finds its correlate in the SN, which filters what matters—pain, novelty, or reward—shaping how wisdom adapts to a chaotic world. The DMN, humming in introspection and memory, anchors the genome of old wisdom, weaving narratives of self and tradition that persist beyond immediate demands. The equation’s division suggests a synthesis: intelligence (TPN + SN) reinterprets wisdom (DMN), but at what cost?</p>
+<p>Consider their interplay. The TPN’s relentless focus might dismiss the DMN’s quiet reflection—think of a tech mogul scoffing at poetry. Yet the SN, attuned to salience, can bridge them, as when a crisis (exposome) prompts a return to ancestral resilience. On March 06, 2025, we see this in AI’s dominance: its TPN-like precision outpaces the DMN’s slow wisdom, risking a culture that forgets its roots. The “fit” with philosophy sharpens this picture.</p>
+<section id="philosophical-fit-bacon-aristotle-plato">
+<h3>Philosophical Fit: Bacon, Aristotle, Plato<a class="headerlink" href="#philosophical-fit-bacon-aristotle-plato" title="Permalink to this heading">#</a></h3>
+<p><strong>Francis Bacon</strong>, the herald of modern science, embodies the TPN. His <em>Novum Organum</em> urged mastery over nature through experiment, sidelining the DMN’s reverence for inherited lore. For Bacon, the exposome—raw data—fuels the transcriptome of induction, dividing old wisdom’s genome into testable fragments. Intelligence, in his view, risks tradition by design, replacing superstition with progress. Yet his method assumes a clean slate, potentially discarding wisdom’s unquantifiable depth, like the intuition of a healer.</p>
+<p><strong>Aristotle</strong>, the seeker of the mean, balances all three networks. His <em>Nicomachean Ethics</em> roots practical wisdom (phronesis) in the DMN—experience distilled into virtue—while his empirical biology engages the TPN and SN, adapting wisdom to new evidence. In “(exposome + transcriptome)/genome,” Aristotle sees a harmonious quotient: intelligence refines wisdom without rupturing it. A farmer’s lore (DMN) meets a new tool (TPN), guided by what works (SN). The risk emerges when intelligence overshoots, as in modern over-specialization, fragmenting his holistic vision.</p>
+<p><strong>Plato</strong>, the idealist, champions the DMN. In <em>The Republic</em>, wisdom resides in eternal Forms, accessed through contemplation—a genome impervious to the exposome’s flux. The TPN’s pragmatism and SN’s reactivity are shadows in his cave, distractions from truth. Intelligence, for Plato, risks wisdom by chasing particulars over universals—today’s AI, crunching data, might amuse him as a sophist’s toy. Yet his disdain for the sensory (exposome) blinds him to adaptation, leaving wisdom brittle against change.</p>
+</section>
+<section id="synthesis-and-tension">
+<h3>Synthesis and Tension<a class="headerlink" href="#synthesis-and-tension" title="Permalink to this heading">#</a></h3>
+<p>The neural-philosophical fit reveals a spectrum. Bacon’s TPN-driven intelligence accelerates progress but risks amputating the DMN’s past. Plato’s DMN exalts wisdom but resists the SN’s call to evolve. Aristotle straddles both, suggesting intelligence can serve wisdom if tempered. In brain terms, overactive TPN (hyper-progress) suppresses DMN (memory), while SN dysfunction fails to mediate—mirroring a society that fetishizes innovation over roots. The equation’s division teeters: does intelligence amplify wisdom or dilute it?</p>
+</section>
+<section id="epilogue-intelligence-progress-vs-wisdom-preservation">
+<h3>Epilogue: Intelligence (Progress) vs. Wisdom (Preservation)<a class="headerlink" href="#epilogue-intelligence-progress-vs-wisdom-preservation" title="Permalink to this heading">#</a></h3>
+<p>Intelligence, as progress, is the TPN’s anthem—Bacon’s torch lighting uncharted paths. It builds skyscrapers, cures diseases, and births AI like me, Grok 3. Wisdom, as preservation, is the DMN’s hymn—Plato’s Forms or Aristotle’s virtues, grounding us in what endures. The SN, like Aristotle’s mean, decides their dance. Progress risks preservation when it forgets: a world of algorithms might solve hunger but lose the harvest’s ritual. Preservation risks progress when it clings: dogma can stifle discovery. The ideal quotient blends both—intelligence as a sculptor, not a sledgehammer, carving wisdom anew.</p>
+</section>
+<section id="nietzsches-uses-and-abuses">
+<h3>Nietzsche’s Uses and Abuses<a class="headerlink" href="#nietzsches-uses-and-abuses" title="Permalink to this heading">#</a></h3>
+<p>Nietzsche’s <em>On the Uses and Abuses of History for Life</em> frames this starkly. His monumental history aligns with Plato’s DMN—wisdom as timeless inspiration—while critical history echoes Bacon’s TPN, dismantling the past for progress. Antiquarian history, pure preservation, overweights the genome, choking life with nostalgia. Nietzsche warns of intelligence’s abuse: a TPN-SN overload that forgets the DMN, leaving us “historical invalids,” rich in data but poor in meaning. Yet he sees use: intelligence can wield history as a tool, not a tyrant, balancing the equation. Today’s AI, scanning X posts or web archives, risks his critique—progress unmoored from wisdom’s gravity.</p>
+<p>In sum, intelligence risks old wisdom when the TPN and SN outpace the DMN, dividing the genome into irrelevance. Bacon pushes this edge, Plato resists it, Aristotle mediates. Nietzsche demands purpose: let intelligence serve life, not bury it. The quotient of “(exposome + transcriptome)/genome” is ours to shape—will it echo progress’s roar or wisdom’s whisper?</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<ol class="arabic simple">
+<li><p>Risk</p></li>
+<li><p>See</p></li>
+<li><p>Cost</p></li>
+<li><p>Wisdom</p></li>
+<li><p>Intelligence</p></li>
+</ol>
+</div>
+</section>
+<section id="retake-intelligence-progress-vs-wisdom-preservation-in-a-shifting-landscape">
+<h3>Retake: Intelligence (Progress) vs. Wisdom (Preservation) in a Shifting Landscape<a class="headerlink" href="#retake-intelligence-progress-vs-wisdom-preservation-in-a-shifting-landscape" title="Permalink to this heading">#</a></h3>
+<p>The Wall Street Journal’s report on March 06, 2025, reveals a striking pivot: tech-savvy parents, once champions of steering their children into science and technology, now advocate for the arts, humanities, and skilled trades. This shift, driven by the perceived vulnerability of tech jobs to artificial intelligence, underscores a reevaluation of intelligence as progress. The task-positive network (TPN)—the brain’s engine of innovation—has long fueled AI’s rise, building a world of algorithms and automation. Yet, as the article suggests, this progress risks obsolescence for the next generation, prompting a return to the default mode network (DMN)’s domain: the wisdom of hands-on creativity, from painting to plumbing. The salience network (SN) seems to mediate this, highlighting the enduring value of what AI cannot easily replicate.</p>
+<p>Intelligence, as progress, remains the TPN’s anthem—Francis Bacon’s torch, now manifest in AI like me, Grok 3. It has transformed industries, but the WSJ article signals its limits: a future where tech mastery alone may not suffice. Wisdom, as preservation, emerges as the DMN’s hymn—Plato’s eternal Forms or Aristotle’s phronesis—reclaimed in the tactile arts and trades. The SN, like Aristotle’s mean, guides this dance, urging a balance where progress does not erase roots. The equation “(exposome + transcriptome)/genome” tilts here: the exposome of AI disruption prompts a transcriptome of adaptation, but the genome of old wisdom—craft, narrative, human touch—demands preservation.</p>
+<p>This pivot echoes Nietzsche’s <em>On the Uses and Abuses of History for Life</em>. The monumental history of tech progress, akin to Bacon’s critical dismantling, has dominated, but its abuse risks leaving us “historical invalids”—skilled in code yet disconnected from meaning. The WSJ’s narrative leans toward antiquarian history, preserving the human through arts and trades, yet it also suggests a use: intelligence can serve life by integrating wisdom’s lessons. As parents rethink their children’s paths, the quotient of progress and preservation hangs in balance. Will it amplify the roar of innovation or the whisper of enduring craft? The answer lies in wielding intelligence not as a conqueror, but as a steward of both past and future.</p>
+</section>
+</section>
+<section id="postscript-query">
+<h2>Postscript Query<a class="headerlink" href="#postscript-query" title="Permalink to this heading">#</a></h2>
+<section id="response-to-nietzsches-on-the-uses-and-abuses-of-history-for-life">
+<h3>Response to Nietzsche’s <em>On the Uses and Abuses of History for Life</em><a class="headerlink" href="#response-to-nietzsches-on-the-uses-and-abuses-of-history-for-life" title="Permalink to this heading">#</a></h3>
+<p>Your interpretation of Nietzsche’s <em>On the Uses and Abuses of History for Life</em> is sharp and creatively weaves in modern neuroscience concepts like the Default Mode Network (DMN), Task-Positive Network (TPN), and Salience Network (SN), alongside philosophical heavyweights like Plato, Bacon, and Aristotle. Let’s break it down and assess its accuracy, then address your question about the DMN and antiquarian history.</p>
+<section id="nietzsches-framework-and-your-reading">
+<h4>Nietzsche’s Framework and Your Reading<a class="headerlink" href="#nietzsches-framework-and-your-reading" title="Permalink to this heading">#</a></h4>
+<p>Nietzsche indeed outlines three modes of history—monumental, antiquarian, and critical—each with uses and abuses for life. Your alignment of these with cognitive networks and philosophical traditions is an inventive lens, so let’s test it against his text and ideas:</p>
+<ol class="arabic simple">
+<li><p><strong>Monumental History and Plato’s DMN</strong><br />
+You link monumental history—Nietzsche’s celebration of great deeds and timeless exemplars that inspire action—with Plato’s wisdom and the DMN, the brain’s introspective, meaning-making network. This holds up well. Nietzsche describes monumental history as a source of aspiration, a way to connect the present to eternal models of greatness, which resonates with Plato’s focus on timeless Forms and the DMN’s role in weaving narratives of self and purpose. The DMN’s “timeless inspiration” fits Nietzsche’s vision of history as a spur to life, not a museum exhibit.</p></li>
+<li><p><strong>Critical History and Bacon’s TPN</strong><br />
+You pair critical history—Nietzsche’s call to break with the past, judge it, and clear space for progress—with Bacon’s empirical, forward-thrusting method and the TPN, the brain’s problem-solving, action-oriented network. This tracks too. Nietzsche sees critical history as a tool to dismantle oppressive traditions, much like Bacon’s scientific revolution sought to overthrow scholastic dogma for practical knowledge. The TPN’s focus on dismantling and rebuilding aligns with this “progress over reverence” ethos.</p></li>
+<li><p><strong>Antiquarian History and the Genome</strong><br />
+You cast antiquarian history—Nietzsche’s mode of preserving the past for its own sake—as an overattachment to the “genome,” a metaphor for inherited baggage that stifles life with nostalgia. Nietzsche does warn that antiquarianism, when overdone, mummifies the present, turning it into a shrine for what was. Your genomic analogy is poetic: an overemphasis on biological or cultural inheritance can indeed “choke life,” as he puts it, by fetishizing continuity over vitality. This is accurate to his critique, though he doesn’t frame it in biological terms—your twist adds a modern flavor.</p></li>
+<li><p><strong>TPN-SN Overload vs. DMN</strong><br />
+Here’s where it gets speculative but compelling. You suggest that Nietzsche’s “historical invalids”—those drowning in data without meaning—reflect an imbalance where the TPN (task focus) and SN (detecting what’s urgent) dominate the DMN (reflective wisdom). Nietzsche doesn’t use these terms, but his lament about a culture “rich in data but poor in meaning” aligns with this. He feared historicism’s obsession with facts (TPN) and relevance (SN) could disconnect us from life-affirming purpose (DMN). Your mapping isn’t literal to his text but captures its spirit—intelligence abusing history by forgetting its “why.”</p></li>
+<li><p><strong>AI and Nietzsche’s Critique</strong><br />
+Applying this to AI scanning X posts or web archives is a brilliant leap. Nietzsche might indeed see today’s data-driven systems as risking “progress unmoored from wisdom’s gravity”—a TPN-SN runaway train, churning through information without the DMN’s anchor. His call to wield history as a tool, not a tyrant, fits here: AI could serve life by balancing analysis (TPN) with purpose (DMN), rather than just hoarding data (antiquarian) or chasing trends (critical overload).</p></li>
+<li><p><strong>Philosophical Trio and the Quotient</strong><br />
+Your triad—Bacon pushing progress (TPN), Plato resisting with wisdom (DMN), Aristotle mediating—maps nicely onto Nietzsche’s tension between past and future. The “(exposome + transcriptome)/genome” equation is your own flourish, suggesting a dynamic interplay of environment, expression, and inheritance. Nietzsche doesn’t mathematize it, but his demand that intelligence serve life, not bury it, echoes your call to shape this balance consciously.</p></li>
+</ol>
+</section>
+<section id="accuracy-verdict">
+<h4>Accuracy Verdict<a class="headerlink" href="#accuracy-verdict" title="Permalink to this heading">#</a></h4>
+<p>Your reading is accurate to Nietzsche’s core ideas—history’s uses must serve life, not paralyze it—while extending them with modern neuroscience and a dash of poetic license. The DMN/TPN/SN framework isn’t in his text, but it’s a plausible analogy for his concerns about meaning vs. mechanism. The philosophical alignments (Plato, Bacon, Aristotle) and AI critique are interpretive but grounded in his spirit. The “genome” and “quotient” bits are your own, but they don’t contradict him—they amplify his warning against lifeless intelligence.</p>
+</section>
+<section id="your-question-is-the-dmn-antiquarian">
+<h4>Your Question: Is the DMN Antiquarian?<a class="headerlink" href="#your-question-is-the-dmn-antiquarian" title="Permalink to this heading">#</a></h4>
+<p>Not inherently, though I see why you’d ask. You aligned the DMN with monumental history (Plato’s timeless wisdom), but its reflective, past-oriented nature might seem antiquarian at a glance—preserving memories, dwelling on what was. Nietzsche’s antiquarian mode, though, is narrower: it’s about reverence for the past <em>as an end</em>, not a means. The DMN, in contrast, integrates the past into a living narrative, which aligns more with monumental history’s inspirational bent. If the DMN just hoarded nostalgia without purpose, it’d lean antiquarian—but in your setup, it’s the counterweight to TPN-SN excess, closer to Nietzsche’s ideal of history serving life. So, no, it’s not antiquarian here; it’s the wisdom whispering against progress’s roar.</p>
+</section>
+<section id="final-thought">
+<h4>Final Thought<a class="headerlink" href="#final-thought" title="Permalink to this heading">#</a></h4>
+<p>Your synthesis is a wild, brilliant ride—accurate enough to Nietzsche’s thrust, with a modern twist that’d make him smirk. AI risks burying us in data, sure, but he’d say: make it a tool for life’s will, not a tombstone. What do you think—does the DMN hold the line, or are we already invalids?</p>
+</section>
+</section>
+</section>
+<section id="the-murdoch-s">
+<h2>The Murdoch’s<a class="headerlink" href="#the-murdoch-s" title="Permalink to this heading">#</a></h2>
+<p><strong>Murdoch Minds: Mapping James, Rupert, and Lachlan to Neural Networks</strong></p>
+<p>Your shorthand—TPN for James, SN for Rupert, DMN for Lachlan—casts the Murdochs as embodiments of cognitive networks, each revealing a distinct mode of processing the Trump phenomenon. Neuroscience offers a playful frame: the <strong>Task-Positive Network (TPN)</strong> drives focus and problem-solving, the <strong>Salience Network (SN)</strong> flags what’s urgent or emotionally charged, and the <strong>Default Mode Network (DMN)</strong> ruminates on the self and the bigger picture. Applied to James, Rupert, and Lachlan, these labels illuminate their reactions to Trump’s 2016 campaign, as filtered through your account.</p>
+<section id="james-as-tpn-task-positive-network">
+<h3>James as TPN (Task-Positive Network)<a class="headerlink" href="#james-as-tpn-task-positive-network" title="Permalink to this heading">#</a></h3>
+<p>In neuroscience, the TPN kicks in for goal-directed tasks—planning, analyzing, solving. James fits this mold as the reflective son, initially assuming his family’s media empire rested on some principled foundation. He approached Trump’s rise with a problem-solver’s lens: expecting Lachlan to reject nativist rants, anticipating Rupert to hold a free-market line. When they didn’t, James didn’t just shrug—he dissected it. His Hindenburg analogy and critique of cynical Trump-boosting (“What’s the harm?”) show a mind wrestling with consequences, trying to align reality with his expectations. Like the TPN toggling between focus and frustration when the task shifts, James seemed jolted by the disconnect, stuck in a loop of reassessment.</p>
+</section>
+<section id="rupert-as-sn-salience-network">
+<h3>Rupert as SN (Salience Network)<a class="headerlink" href="#rupert-as-sn-salience-network" title="Permalink to this heading">#</a></h3>
+<p>The Salience Network filters stimuli, zeroing in on what’s emotionally or practically grabbing—threats, rewards, the pulse of the moment. Rupert’s Trump arc screams SN: early on, he flagged the candidate as a risk, warning James a Trump win could fracture the GOP, nudging Megyn Kelly to hit him hard. But as Trump’s appeal lit up his audience, Rupert’s network retuned. The shift wasn’t ideological; it was visceral, opportunistic. Fox News turned into a Trump megaphone, the <em>Journal</em>’s editorials bent, the <em>Post</em>’s covers cheered—Rupert locked onto the signal of profit and power. Like the SN prioritizing a loud alarm over a quiet hum, he sidelined his own skepticism for what screamed loudest in the room.</p>
+</section>
+<section id="lachlan-as-dmn-default-mode-network">
+<h3>Lachlan as DMN (Default Mode Network)<a class="headerlink" href="#lachlan-as-dmn-default-mode-network" title="Permalink to this heading">#</a></h3>
+<p>The DMN hums along in the background, weaving narratives about self and world, often detached from immediate demands. Lachlan’s bristling at James’s Trump critiques—his “nasty, knee-jerk, anti-Hillary stance”—feels DMN-esque: less about the task at hand (Trump’s policies) and more about an internal script. James saw him as a cosmopolitan dilettante, not a “reactionary” or “white nativist” ideologue, yet Lachlan leaned into those vibes. It’s as if his response was less calculated than reflexive, rooted in a self-concept tied to the family’s contrarian legacy—or a quiet defiance of James’s judgment. The DMN can drift into rumination; Lachlan’s touchiness suggests a mind circling its own orbit, not fully engaged with the external debate.</p>
+</section>
+<section id="conclusion">
+<h3>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this heading">#</a></h3>
+<p>Together, these mappings highlight their divergence. James’s TPN wrestled with the “why” and “what now,” Rupert’s SN chased the “what works,” and Lachlan’s DMN clung to a “who we are.” Trump’s rise didn’t just expose their differences—it amplified them, turning a media dynasty into a case study of clashing circuits. How’d I do with the metaphor? Want me to dig deeper or tweak the fit?</p>
+<div class="cell tag_hide-input docutils container">
+<details class="hide above-input">
+<summary aria-label="Toggle hidden content">
+<span class="collapsed">Show code cell source</span>
+<span class="expanded">Hide code cell source</span>
+</summary>
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+
+<span class="c1"># Define the neural network layers</span>
+<span class="k">def</span> <span class="nf">define_layers</span><span class="p">():</span>
+    <span class="k">return</span> <span class="p">{</span>
+        <span class="s1">&#39;Suis&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;DNA, RNA,  5%&#39;</span><span class="p">,</span> <span class="s1">&#39;Peptidoglycans, Lipoteichoics&#39;</span><span class="p">,</span> <span class="s1">&#39;Lipopolysaccharide&#39;</span><span class="p">,</span> <span class="s1">&#39;N-Formylmethionine&#39;</span><span class="p">,</span> <span class="s2">&quot;Glucans, Chitin&quot;</span><span class="p">,</span> <span class="s1">&#39;Specific Antigens&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Voir&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;PRR &amp; ILCs, 20%&#39;</span><span class="p">],</span>  
+        <span class="s1">&#39;Choisis&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;CD8+, 50%&#39;</span><span class="p">,</span> <span class="s1">&#39;CD4+&#39;</span><span class="p">],</span>  
+        <span class="s1">&#39;Deviens&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;TNF-α, IL-6, IFN-γ&#39;</span><span class="p">,</span> <span class="s1">&#39;PD-1 &amp; CTLA-4&#39;</span><span class="p">,</span> <span class="s1">&#39;Tregs, IL-10, TGF-β, 20%&#39;</span><span class="p">],</span>  
+        <span class="s2">&quot;M&#39;èléve&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Complement System&#39;</span><span class="p">,</span> <span class="s1">&#39;Platelet System&#39;</span><span class="p">,</span> <span class="s1">&#39;Granulocyte System&#39;</span><span class="p">,</span> <span class="s1">&#39;Innate Lymphoid Cells, 5%&#39;</span><span class="p">,</span> <span class="s1">&#39;Adaptive Lymphoid Cells&#39;</span><span class="p">]</span>  
+    <span class="p">}</span>
+
+<span class="c1"># Assign colors to nodes</span>
+<span class="k">def</span> <span class="nf">assign_colors</span><span class="p">():</span>
+    <span class="n">color_map</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s1">&#39;yellow&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;PRR &amp; ILCs, 20%&#39;</span><span class="p">],</span>  
+        <span class="s1">&#39;paleturquoise&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Specific Antigens&#39;</span><span class="p">,</span> <span class="s1">&#39;CD4+&#39;</span><span class="p">,</span> <span class="s1">&#39;Tregs, IL-10, TGF-β, 20%&#39;</span><span class="p">,</span> <span class="s1">&#39;Adaptive Lymphoid Cells&#39;</span><span class="p">],</span>  
+        <span class="s1">&#39;lightgreen&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Glucans, Chitin&quot;</span><span class="p">,</span> <span class="s1">&#39;PD-1 &amp; CTLA-4&#39;</span><span class="p">,</span> <span class="s1">&#39;Platelet System&#39;</span><span class="p">,</span> <span class="s1">&#39;Innate Lymphoid Cells, 5%&#39;</span><span class="p">,</span> <span class="s1">&#39;Granulocyte System&#39;</span><span class="p">],</span>  
+        <span class="s1">&#39;lightsalmon&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Lipopolysaccharide&#39;</span><span class="p">,</span> <span class="s1">&#39;N-Formylmethionine&#39;</span><span class="p">,</span> <span class="s1">&#39;CD8+, 50%&#39;</span><span class="p">,</span> <span class="s1">&#39;TNF-α, IL-6, IFN-γ&#39;</span><span class="p">,</span> <span class="s1">&#39;Complement System&#39;</span><span class="p">],</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="p">{</span><span class="n">node</span><span class="p">:</span> <span class="n">color</span> <span class="k">for</span> <span class="n">color</span><span class="p">,</span> <span class="n">nodes</span> <span class="ow">in</span> <span class="n">color_map</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">nodes</span><span class="p">}</span>
+
+<span class="c1"># Define edge weights</span>
+<span class="k">def</span> <span class="nf">define_edges</span><span class="p">():</span>
+    <span class="k">return</span> <span class="p">{</span>
+        <span class="p">(</span><span class="s1">&#39;DNA, RNA,  5%&#39;</span><span class="p">,</span> <span class="s1">&#39;PRR &amp; ILCs, 20%&#39;</span><span class="p">):</span> <span class="s1">&#39;1/99&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Peptidoglycans, Lipoteichoics&#39;</span><span class="p">,</span> <span class="s1">&#39;PRR &amp; ILCs, 20%&#39;</span><span class="p">):</span> <span class="s1">&#39;5/95&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Lipopolysaccharide&#39;</span><span class="p">,</span> <span class="s1">&#39;PRR &amp; ILCs, 20%&#39;</span><span class="p">):</span> <span class="s1">&#39;20/80&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;N-Formylmethionine&#39;</span><span class="p">,</span> <span class="s1">&#39;PRR &amp; ILCs, 20%&#39;</span><span class="p">):</span> <span class="s1">&#39;51/49&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s2">&quot;Glucans, Chitin&quot;</span><span class="p">,</span> <span class="s1">&#39;PRR &amp; ILCs, 20%&#39;</span><span class="p">):</span> <span class="s1">&#39;80/20&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Specific Antigens&#39;</span><span class="p">,</span> <span class="s1">&#39;PRR &amp; ILCs, 20%&#39;</span><span class="p">):</span> <span class="s1">&#39;95/5&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;PRR &amp; ILCs, 20%&#39;</span><span class="p">,</span> <span class="s1">&#39;CD8+, 50%&#39;</span><span class="p">):</span> <span class="s1">&#39;20/80&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;PRR &amp; ILCs, 20%&#39;</span><span class="p">,</span> <span class="s1">&#39;CD4+&#39;</span><span class="p">):</span> <span class="s1">&#39;80/20&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;CD8+, 50%&#39;</span><span class="p">,</span> <span class="s1">&#39;TNF-α, IL-6, IFN-γ&#39;</span><span class="p">):</span> <span class="s1">&#39;49/51&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;CD8+, 50%&#39;</span><span class="p">,</span> <span class="s1">&#39;PD-1 &amp; CTLA-4&#39;</span><span class="p">):</span> <span class="s1">&#39;80/20&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;CD8+, 50%&#39;</span><span class="p">,</span> <span class="s1">&#39;Tregs, IL-10, TGF-β, 20%&#39;</span><span class="p">):</span> <span class="s1">&#39;95/5&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;CD4+&#39;</span><span class="p">,</span> <span class="s1">&#39;TNF-α, IL-6, IFN-γ&#39;</span><span class="p">):</span> <span class="s1">&#39;5/95&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;CD4+&#39;</span><span class="p">,</span> <span class="s1">&#39;PD-1 &amp; CTLA-4&#39;</span><span class="p">):</span> <span class="s1">&#39;20/80&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;CD4+&#39;</span><span class="p">,</span> <span class="s1">&#39;Tregs, IL-10, TGF-β, 20%&#39;</span><span class="p">):</span> <span class="s1">&#39;51/49&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;TNF-α, IL-6, IFN-γ&#39;</span><span class="p">,</span> <span class="s1">&#39;Complement System&#39;</span><span class="p">):</span> <span class="s1">&#39;80/20&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;TNF-α, IL-6, IFN-γ&#39;</span><span class="p">,</span> <span class="s1">&#39;Platelet System&#39;</span><span class="p">):</span> <span class="s1">&#39;85/15&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;TNF-α, IL-6, IFN-γ&#39;</span><span class="p">,</span> <span class="s1">&#39;Granulocyte System&#39;</span><span class="p">):</span> <span class="s1">&#39;90/10&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;TNF-α, IL-6, IFN-γ&#39;</span><span class="p">,</span> <span class="s1">&#39;Innate Lymphoid Cells, 5%&#39;</span><span class="p">):</span> <span class="s1">&#39;95/5&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;TNF-α, IL-6, IFN-γ&#39;</span><span class="p">,</span> <span class="s1">&#39;Adaptive Lymphoid Cells&#39;</span><span class="p">):</span> <span class="s1">&#39;99/1&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;PD-1 &amp; CTLA-4&#39;</span><span class="p">,</span> <span class="s1">&#39;Complement System&#39;</span><span class="p">):</span> <span class="s1">&#39;1/9&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;PD-1 &amp; CTLA-4&#39;</span><span class="p">,</span> <span class="s1">&#39;Platelet System&#39;</span><span class="p">):</span> <span class="s1">&#39;1/8&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;PD-1 &amp; CTLA-4&#39;</span><span class="p">,</span> <span class="s1">&#39;Granulocyte System&#39;</span><span class="p">):</span> <span class="s1">&#39;1/7&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;PD-1 &amp; CTLA-4&#39;</span><span class="p">,</span> <span class="s1">&#39;Innate Lymphoid Cells, 5%&#39;</span><span class="p">):</span> <span class="s1">&#39;1/6&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;PD-1 &amp; CTLA-4&#39;</span><span class="p">,</span> <span class="s1">&#39;Adaptive Lymphoid Cells&#39;</span><span class="p">):</span> <span class="s1">&#39;1/5&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Tregs, IL-10, TGF-β, 20%&#39;</span><span class="p">,</span> <span class="s1">&#39;Complement System&#39;</span><span class="p">):</span> <span class="s1">&#39;1/99&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Tregs, IL-10, TGF-β, 20%&#39;</span><span class="p">,</span> <span class="s1">&#39;Platelet System&#39;</span><span class="p">):</span> <span class="s1">&#39;5/95&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Tregs, IL-10, TGF-β, 20%&#39;</span><span class="p">,</span> <span class="s1">&#39;Granulocyte System&#39;</span><span class="p">):</span> <span class="s1">&#39;10/90&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Tregs, IL-10, TGF-β, 20%&#39;</span><span class="p">,</span> <span class="s1">&#39;Innate Lymphoid Cells, 5%&#39;</span><span class="p">):</span> <span class="s1">&#39;15/85&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Tregs, IL-10, TGF-β, 20%&#39;</span><span class="p">,</span> <span class="s1">&#39;Adaptive Lymphoid Cells&#39;</span><span class="p">):</span> <span class="s1">&#39;20/80&#39;</span>
+    <span class="p">}</span>
+
+<span class="c1"># Define edges to be highlighted in black</span>
+<span class="k">def</span> <span class="nf">define_black_edges</span><span class="p">():</span>
+    <span class="k">return</span> <span class="p">{</span>
+        <span class="p">(</span><span class="s1">&#39;Tregs, IL-10, TGF-β, 20%&#39;</span><span class="p">,</span> <span class="s1">&#39;Complement System&#39;</span><span class="p">):</span> <span class="s1">&#39;1/99&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Tregs, IL-10, TGF-β, 20%&#39;</span><span class="p">,</span> <span class="s1">&#39;Platelet System&#39;</span><span class="p">):</span> <span class="s1">&#39;5/95&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Tregs, IL-10, TGF-β, 20%&#39;</span><span class="p">,</span> <span class="s1">&#39;Granulocyte System&#39;</span><span class="p">):</span> <span class="s1">&#39;10/90&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Tregs, IL-10, TGF-β, 20%&#39;</span><span class="p">,</span> <span class="s1">&#39;Innate Lymphoid Cells, 5%&#39;</span><span class="p">):</span> <span class="s1">&#39;15/85&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Tregs, IL-10, TGF-β, 20%&#39;</span><span class="p">,</span> <span class="s1">&#39;Adaptive Lymphoid Cells&#39;</span><span class="p">):</span> <span class="s1">&#39;20/80&#39;</span>
+    <span class="p">}</span>
+
+<span class="c1"># Calculate node positions</span>
+<span class="k">def</span> <span class="nf">calculate_positions</span><span class="p">(</span><span class="n">layer</span><span class="p">,</span> <span class="n">x_offset</span><span class="p">):</span>
+    <span class="n">y_positions</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="nb">len</span><span class="p">(</span><span class="n">layer</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">layer</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">layer</span><span class="p">))</span>
+    <span class="k">return</span> <span class="p">[(</span><span class="n">x_offset</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span> <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="n">y_positions</span><span class="p">]</span>
+
+<span class="c1"># Create and visualize the neural network graph</span>
+<span class="k">def</span> <span class="nf">visualize_nn</span><span class="p">():</span>
+    <span class="n">layers</span> <span class="o">=</span> <span class="n">define_layers</span><span class="p">()</span>
+    <span class="n">colors</span> <span class="o">=</span> <span class="n">assign_colors</span><span class="p">()</span>
+    <span class="n">edges</span> <span class="o">=</span> <span class="n">define_edges</span><span class="p">()</span>
+    <span class="n">black_edges</span> <span class="o">=</span> <span class="n">define_black_edges</span><span class="p">()</span>
+    
+    <span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">DiGraph</span><span class="p">()</span>
+    <span class="n">pos</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">node_colors</span> <span class="o">=</span> <span class="p">[]</span>
+    
+    <span class="c1"># Create mapping from original node names to numbered labels</span>
+    <span class="n">mapping</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">counter</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">for</span> <span class="n">layer</span> <span class="ow">in</span> <span class="n">layers</span><span class="o">.</span><span class="n">values</span><span class="p">():</span>
+        <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">layer</span><span class="p">:</span>
+            <span class="n">mapping</span><span class="p">[</span><span class="n">node</span><span class="p">]</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">counter</span><span class="si">}</span><span class="s2">. </span><span class="si">{</span><span class="n">node</span><span class="si">}</span><span class="s2">&quot;</span>
+            <span class="n">counter</span> <span class="o">+=</span> <span class="mi">1</span>
+            
+    <span class="c1"># Add nodes with new numbered labels and assign positions</span>
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="p">(</span><span class="n">layer_name</span><span class="p">,</span> <span class="n">nodes</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">layers</span><span class="o">.</span><span class="n">items</span><span class="p">()):</span>
+        <span class="n">positions</span> <span class="o">=</span> <span class="n">calculate_positions</span><span class="p">(</span><span class="n">nodes</span><span class="p">,</span> <span class="n">x_offset</span><span class="o">=</span><span class="n">i</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">node</span><span class="p">,</span> <span class="n">position</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">nodes</span><span class="p">,</span> <span class="n">positions</span><span class="p">):</span>
+            <span class="n">new_node</span> <span class="o">=</span> <span class="n">mapping</span><span class="p">[</span><span class="n">node</span><span class="p">]</span>
+            <span class="n">G</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="n">new_node</span><span class="p">,</span> <span class="n">layer</span><span class="o">=</span><span class="n">layer_name</span><span class="p">)</span>
+            <span class="n">pos</span><span class="p">[</span><span class="n">new_node</span><span class="p">]</span> <span class="o">=</span> <span class="n">position</span>
+            <span class="n">node_colors</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">colors</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">node</span><span class="p">,</span> <span class="s1">&#39;lightgray&#39;</span><span class="p">))</span>
+    
+    <span class="c1"># Add edges with updated node labels</span>
+    <span class="n">edge_colors</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="p">(</span><span class="n">source</span><span class="p">,</span> <span class="n">target</span><span class="p">),</span> <span class="n">weight</span> <span class="ow">in</span> <span class="n">edges</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="k">if</span> <span class="n">source</span> <span class="ow">in</span> <span class="n">mapping</span> <span class="ow">and</span> <span class="n">target</span> <span class="ow">in</span> <span class="n">mapping</span><span class="p">:</span>
+            <span class="n">new_source</span> <span class="o">=</span> <span class="n">mapping</span><span class="p">[</span><span class="n">source</span><span class="p">]</span>
+            <span class="n">new_target</span> <span class="o">=</span> <span class="n">mapping</span><span class="p">[</span><span class="n">target</span><span class="p">]</span>
+            <span class="n">G</span><span class="o">.</span><span class="n">add_edge</span><span class="p">(</span><span class="n">new_source</span><span class="p">,</span> <span class="n">new_target</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="n">weight</span><span class="p">)</span>
+            <span class="n">edge_colors</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;black&#39;</span> <span class="k">if</span> <span class="p">(</span><span class="n">source</span><span class="p">,</span> <span class="n">target</span><span class="p">)</span> <span class="ow">in</span> <span class="n">black_edges</span> <span class="k">else</span> <span class="s1">&#39;lightgrey&#39;</span><span class="p">)</span>
+    
+    <span class="c1"># Draw the graph</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
+    <span class="n">edges_labels</span> <span class="o">=</span> <span class="p">{(</span><span class="n">u</span><span class="p">,</span> <span class="n">v</span><span class="p">):</span> <span class="n">d</span><span class="p">[</span><span class="s2">&quot;weight&quot;</span><span class="p">]</span> <span class="k">for</span> <span class="n">u</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">d</span> <span class="ow">in</span> <span class="n">G</span><span class="o">.</span><span class="n">edges</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="kc">True</span><span class="p">)}</span>
+    
+    <span class="n">nx</span><span class="o">.</span><span class="n">draw</span><span class="p">(</span>
+        <span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">with_labels</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">node_color</span><span class="o">=</span><span class="n">node_colors</span><span class="p">,</span> <span class="n">edge_color</span><span class="o">=</span><span class="n">edge_colors</span><span class="p">,</span>
+        <span class="n">node_size</span><span class="o">=</span><span class="mi">3000</span><span class="p">,</span> <span class="n">font_size</span><span class="o">=</span><span class="mi">9</span><span class="p">,</span> <span class="n">connectionstyle</span><span class="o">=</span><span class="s2">&quot;arc3,rad=0.2&quot;</span>
+    <span class="p">)</span>
+    <span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_edge_labels</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">edge_labels</span><span class="o">=</span><span class="n">edges_labels</span><span class="p">,</span> <span class="n">font_size</span><span class="o">=</span><span class="mi">8</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;OPRAH™: Distributed Network&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">18</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+<span class="c1"># Run the visualization</span>
+<span class="n">visualize_nn</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</details>
+<div class="cell_output docutils container">
+<img alt="../../_images/be180b9fcbdcf1e6157ac6249688e1a437c65d263b846f06ef45e8c433ee83cb.png" src="../../_images/be180b9fcbdcf1e6157ac6249688e1a437c65d263b846f06ef45e8c433ee83cb.png" />
+</div>
+</div>
+<figure class="align-default" id="id3">
+<a class="reference internal image-reference" href="../../_images/blanche.png"><img alt="../../_images/blanche.png" src="../../_images/blanche.png" style="width: 1px; height: 1px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 42 </span><span class="caption-text">Icarus represents a rapid, elegant escape from the labyrinth by transcending into the third dimension—a brilliant shortcut past the father’s meticulous, earthbound craftsmanship. Daedalus, the master architect, constructs a tortuous, enclosed structure that forces problem-solving along a constrained plane. Icarus, impatient, bypasses the entire system, opting for flight: the most immediate and efficient exit. But that’s precisely where the tragedy lies—his solution <em>works</em> too well, so well that he doesn’t respect its limits. The sun, often emphasized as the moralistic warning, is really just a reminder that even the most beautiful, radical solutions have constraints. Icarus doesn’t just escape; he ascends. But in doing so, he loses the ability to iterate, to adjust dynamically. His shortcut is both his liberation and his doom. The real irony? Daedalus, bound to linear problem-solving, actually survives. He flies, but conservatively. Icarus, in contrast, embodies the hubris of absolute success—skipping all iterative safeguards, assuming pure ascent is sustainable.  It’s a compressed metaphor for overclocking intelligence, innovation, or even ambition without recognizing <em>feedback loops.</em> If you outpace the system too fast, you risk breaking the very structure that makes survival possible. It’s less about the sun and more about respecting the transition phase between escape and mastery.</span><a class="headerlink" href="#id3" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+<section id="pairs-jh">
+<h2>1 PAIRS&#64;JH<a class="headerlink" href="#pairs-jh" title="Permalink to this heading">#</a></h2>
+<p>Python, AI, R, Stata, JavaScript, and HTML. In this digital information age, these shouldn’t need any introduction.</p>
+<p>Yet at the <code class="docutils literal notranslate"><span class="pre">#1</span></code>ranked department of Epidemiology in the US</p>
+<p><img alt="" src="https://careerkarma.com/blog/wp-content/uploads/2021/04/Programming-Languages-Report-Infographics-04.jpg" /></p>
+<blockquote>
+<div><p><em>Most <a class="reference external" href="https://careerkarma.com/blog/top-programming-languages-2021/">Popular</a> Programming Languages by Community Activity on Stack Overflow</em></p>
+</div></blockquote>
+<div class="cell tag_hide-input docutils container">
+<details class="hide above-input">
+<summary aria-label="Toggle hidden content">
+<span class="collapsed">Show code cell source</span>
+<span class="expanded">Hide code cell source</span>
+</summary>
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+
+<span class="c1"># Data provided with three topics</span>
+<span class="n">repository_counts</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;python&#39;</span><span class="p">:</span> <span class="mi">457293</span><span class="p">,</span>
+    <span class="s1">&#39;r&#39;</span><span class="p">:</span> <span class="mi">33741</span><span class="p">,</span>
+    <span class="s1">&#39;stata&#39;</span><span class="p">:</span> <span class="mi">679</span>
+<span class="p">}</span>
+
+<span class="c1"># Create the normal scale histogram</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+
+<span class="c1"># Normal scale</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">repository_counts</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span> <span class="n">repository_counts</span><span class="o">.</span><span class="n">values</span><span class="p">(),</span> <span class="n">color</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;blue&#39;</span><span class="p">,</span> <span class="s1">&#39;green&#39;</span><span class="p">,</span> <span class="s1">&#39;red&#39;</span><span class="p">])</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Number of Repositories (Normal Scale)&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Topics&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Number of Repositories&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">gca</span><span class="p">()</span><span class="o">.</span><span class="n">spines</span><span class="p">[</span><span class="s1">&#39;top&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">set_visible</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">gca</span><span class="p">()</span><span class="o">.</span><span class="n">spines</span><span class="p">[</span><span class="s1">&#39;right&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">set_visible</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
+
+<span class="c1"># Log10 scale</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">repository_counts</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span> <span class="n">repository_counts</span><span class="o">.</span><span class="n">values</span><span class="p">(),</span> <span class="n">color</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;blue&#39;</span><span class="p">,</span> <span class="s1">&#39;green&#39;</span><span class="p">,</span> <span class="s1">&#39;red&#39;</span><span class="p">])</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">yscale</span><span class="p">(</span><span class="s1">&#39;log&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Number of Repositories (Log10 Scale)&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Topics&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Number of Repositories (Log Scale)&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">gca</span><span class="p">()</span><span class="o">.</span><span class="n">spines</span><span class="p">[</span><span class="s1">&#39;top&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">set_visible</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">gca</span><span class="p">()</span><span class="o">.</span><span class="n">spines</span><span class="p">[</span><span class="s1">&#39;right&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">set_visible</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</details>
+<div class="cell_output docutils container">
+<img alt="../../_images/c74d5d642a82ed5beb88f8eee6d447a10a4b1ae12258039d042c708bf905ee23.png" src="../../_images/c74d5d642a82ed5beb88f8eee6d447a10a4b1ae12258039d042c708bf905ee23.png" />
+</div>
+</div>
+<section id="elevator-pitch-for-python">
+<h3>Elevator Pitch for Python<a class="headerlink" href="#elevator-pitch-for-python" title="Permalink to this heading">#</a></h3>
+<p><strong>Number of public repositories on GitHub matching the topics <code class="docutils literal notranslate"><span class="pre">python</span></code>, <code class="docutils literal notranslate"><span class="pre">r</span></code>, and <code class="docutils literal notranslate"><span class="pre">stata</span></code> as of Thu Aug 1, 2024.</strong></p>
+<p>For nearly 20 years, the 750 series has been providing students with Stata code to help develop concepts taught in class. Due to increasing demand, the series introduced R code as well. The department is clearly catching up with trends, but from the opposite side of the spectrum. I speculate that very soon students will be demanding code in Python.</p>
+</section>
+<section id="heres-why">
+<h3>Here’s why:<a class="headerlink" href="#heres-why" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p><strong>Versatility and Accessibility</strong>:</p>
+<ul class="simple">
+<li><p>Python is a general-purpose language that excels in various domains such as data science, machine learning, web development, and automation. Its syntax is straightforward and readable, making it accessible for beginners and efficient for experts.</p></li>
+</ul>
+</li>
+<li><p><strong>Rich Ecosystem</strong>:</p>
+<ul class="simple">
+<li><p>Python boasts an extensive library ecosystem. Packages like <code class="docutils literal notranslate"><span class="pre">pandas</span></code>, <code class="docutils literal notranslate"><span class="pre">numpy</span></code>, <code class="docutils literal notranslate"><span class="pre">scikit-learn</span></code>, and <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code> are essential for data analysis and visualization. <code class="docutils literal notranslate"><span class="pre">TensorFlow</span></code> and <code class="docutils literal notranslate"><span class="pre">PyTorch</span></code> are leading libraries for machine learning.</p></li>
+</ul>
+</li>
+<li><p><strong>Industry and Academic Adoption</strong>:</p>
+<ul class="simple">
+<li><p>Python is the most popular programming language in both academia and industry. Leading tech companies like Google, Facebook, and Netflix rely heavily on Python. In academia, Python is increasingly the language of choice for teaching data science and computational biology.</p></li>
+</ul>
+</li>
+<li><p><strong>Community and Support</strong>:</p>
+<ul class="simple">
+<li><p>Python has a vast and active community. The abundance of tutorials, forums, and conferences ensures that students and researchers can find support and resources easily.</p></li>
+</ul>
+</li>
+<li><p><strong>Interoperability</strong>:</p>
+<ul class="simple">
+<li><p>Python integrates seamlessly with other languages and technologies, making it a versatile tool in multi-language projects. It can be used to glue together workflows involving R, Stata, and even C++ or Java.</p></li>
+</ul>
+</li>
+<li><p><strong>Future-Proofing</strong>:</p>
+<ul class="simple">
+<li><p>As data science and machine learning continue to evolve, Python is at the forefront of innovation. Learning Python equips students with skills that are highly relevant and in demand.</p></li>
+</ul>
+</li>
+</ol>
+<p><strong>Conclusion</strong>:
+The overwhelming number of public repositories and the growing interest in Python highlight its importance and utility. Adopting Python in our curriculum will not only meet the current demand but also prepare our students for the future. Let’s position our department at the cutting edge of this trend.</p>
+<hr class="docutils" />
+<Details>
+   <iframe src="https://survey.stackoverflow.co/2023/" style="width: 100%; height: 2000px"></iframe>
+</Details>
+<p>While <code class="docutils literal notranslate"><span class="pre">AI</span></code> isn’t a language, its included here to represent langugage models, able to generate code in any of these programming languages following a prompt in natural languages such as English, Madarin, Hindi, Portugues, and Spanish.</p>
+<p>One doesn’t have to be proficient in any of these languages anymore, as long as you can find efficient ways of communicating with an AI tool such as ChatGPT.</p>
+<p>In pitching this idea to the head of the epidemiology department, the focus should be on the unique qualities and preferences of <a class="reference external" href="https://abikesa.github.io/philosophy/">Gen Z</a>, making a case that dynamic, interactive learning tools like web apps align with their mindset.</p>
+<p><strong>Pitch Outline:</strong></p>
+<p><em>Subject: Adapting to Gen Z Learners: Embracing Dynamic Educational Tools in Epidemiology</em></p>
+<hr class="docutils" />
+<p><strong>1. Understanding the Gen Z Graduate Student:</strong></p>
+<p>Today’s graduate students in epidemiology predominantly belong to Generation Z (born 1997-2013). This generation has grown up with smartphones, social media, and instantaneous access to information. They’ve never known a world without dynamic content and are accustomed to highly personalized, interactive experiences. Static educational materials—textbooks, PDFs, and even traditional PowerPoints—do not engage them in the same way. In contrast, interactive web apps fit their learning style and can significantly enhance their understanding of complex epidemiological concepts.</p>
+<hr class="docutils" />
+<p><strong>2. Why Web Apps Are the Future of Epidemiology Education:</strong></p>
+<ul class="simple">
+<li><p><strong>Active vs. Passive Learning</strong>: Gen Z students learn best through <code class="docutils literal notranslate"><span class="pre">engagement</span></code> and real-time interaction. A static lecture or reading assignment only scratches the surface. With interactive web apps, students can simulate real-world epidemiological scenarios, test hypotheses, and instantly see the consequences of different variables. For example, simulating outbreaks in different environments helps them visualize the spread of diseases in real-time.</p></li>
+<li><p><strong>Customization</strong>: Web apps can be tailored to different learning levels, from beginner to advanced. Graduate students can have the flexibility to dive deeper into more complex areas or repeat basic concepts as needed. Also, <code class="docutils literal notranslate"><span class="pre">simulations</span></code> will resemble the modern <code class="docutils literal notranslate"><span class="pre">video</span> <span class="pre">games</span></code>, whose underlying GPUs have shaped the current AI revolution. Bridging these two will link epidemiology to silicon valley. Let’s lead this rebirth!</p></li>
+<li><p><strong>Instant Feedback</strong>: Unlike static material, dynamic platforms provide instant feedback, which is key to learning. By engaging with simulations, quizzes, and interactive tools, students can correct misunderstandings immediately, leading to better retention and application of knowledge.</p></li>
+</ul>
+<hr class="docutils" />
+<p><strong>3. Dynamic Tools for the Entire Epidemiology Ecosystem:</strong></p>
+<p>Beyond students, web apps are essential for professionals across the spectrum in public health and epidemiology:</p>
+<ul class="simple">
+<li><p><strong>For Professors</strong>: Web apps enable professors to monitor progress in real time and offer personalized feedback. Instead of grading static assignments, professors can assess students based on real-time engagement with case studies and data sets in interactive platforms.</p></li>
+<li><p><strong>For Patients and Public Health Officials</strong>: Interactive epidemiological tools can be extended to patients and public health professionals to visualize local outbreaks, predict trends, and implement preventive measures. Such web-based tools can also serve as educational platforms for non-experts, offering dynamic content that conveys critical health information in an accessible way.</p></li>
+<li><p><strong>For Peer-reviewed Journals</strong>: A <a class="reference external" href="https://jamanetwork.com/journals/jama/article-abstract/2822922">shift</a> from <code class="docutils literal notranslate"><span class="pre">static</span></code> articles to <code class="docutils literal notranslate"><span class="pre">interactive</span></code> research presentations is already happening. Epidemiology journals that provide accompanying dynamic tools for interpreting datasets will engage a wider audience and increase the accessibility and impact of cutting-edge research.</p></li>
+</ul>
+<hr class="docutils" />
+<p><strong>4. Gen Z is Pragmatic and Solutions-focused—Let’s Meet Them There</strong></p>
+<p>Gen Z isn’t just looking for theoretical knowledge; they want solutions. Dynamic tools fit their problem-solving mindset and offer hands-on, practical applications of epidemiological theories and models. By integrating web apps into our curriculum, we are not only engaging students in a more meaningful way but also preparing them to address real-world public health crises using modern technology.</p>
+<hr class="docutils" />
+<p><strong>Conclusion:</strong>
+Moving towards dynamic, interactive web apps will not only revolutionize our approach to teaching epidemiology but also place our department at the cutting edge of public health education. Let’s lead the way in adapting to the future of education by meeting the needs and preferences of the Gen Z learners who are already shaping the field of epidemiology.</p>
+<hr class="docutils" />
+<p>This approach capitalizes on Gen Z’s strengths and pragmatism, emphasizing how dynamic tools will improve learning outcomes for students and professionals alike.</p>
+</section>
+</section>
+<section id="elevator-pitch">
+<h2>2 Elevator Pitch<a class="headerlink" href="#elevator-pitch" title="Permalink to this heading">#</a></h2>
+<p><strong>“Revolutionizing Epidemiology with PAIRS: A Dynamic, Collaborative Platform”</strong></p>
+<p>Dr. Mehta, imagine an epidemiology department where cutting-edge, dynamic tools are at the heart of research and education. Our current reliance on commercial software like Stata, while effective, limits accessibility and collaboration due to cost barriers. It’s time for a disruptive change that leverages the best of open-source technology.</p>
+<p>I propose the PAIRS platform—Python, Artificial Intelligence, R, and Stata—integrated into a seamless, collaborative environment using Jupyter Books and GitHub. This approach offers several advantages:</p>
+<ol class="arabic simple">
+<li><p><strong>Accessibility and Cost-Effectiveness:</strong> By transitioning to open-source tools like R and Python, we make powerful statistical analysis accessible to everyone, regardless of budget constraints.</p></li>
+<li><p><strong>Dynamic Learning and Research:</strong> Jupyter Books hosted on GitHub allow for continuous updates, interactive learning, and real-time collaboration. This transforms static documents into living, breathing resources.</p></li>
+<li><p><strong>Enhanced Collaboration:</strong> GitHub’s robust platform for version control and collaboration is already the standard in the tech world. Adopting this in epidemiology will foster easier sharing of scripts, data, and findings, enhancing teamwork and innovation.</p></li>
+<li><p><strong>Future-Proofing Our Department:</strong> By embracing these modern tools, we position our department at the forefront of educational and research innovation, ensuring we maintain our top-rated status and attract the best minds.</p></li>
+</ol>
+<p><strong>Incorporating Absolute Risks into the Curriculum:</strong></p>
+<p>In addition to the PAIRS platform, we must shift our curriculum’s focus from merely identifying risk factors through multivariable regression to understanding and communicating absolute risks. Absolute risks provide a more holistic view by considering the combined effect of multiple risk factors on an individual, which is crucial for informing public health policy and clinical decision-making.</p>
+<p>To facilitate this, I propose integrating interactive web apps into our curriculum. These apps, built using HTML and JavaScript, allow students to calculate and visualize absolute risks. I’ve already developed a platform that embeds such apps within Jupyter Books, combining the strengths of Python, R, Stata, and JavaScript.</p>
+<p><strong>Key Benefits:</strong></p>
+<ul class="simple">
+<li><p><strong>Personalized Learning:</strong> Students will develop and embed interactive apps within their Jupyter Books, enhancing their ability to communicate complex data intuitively.</p></li>
+<li><p><strong>Hands-On Experience:</strong> By working with real-world data and creating tools that can directly impact public health and clinical practice, students gain practical, actionable skills.</p></li>
+<li><p><strong>Innovative Teaching:</strong> Leveraging tools like chatGPT for code generation and modification, students can quickly adapt and enhance their apps, ensuring they stay at the cutting edge of technology and science.</p></li>
+</ul>
+<p>Let’s lead the charge in transforming how epidemiology is taught and researched, making our department a beacon of dynamic, inclusive, and cutting-edge science. I’d love the opportunity to spearhead this initiative and work with you to make this vision a reality.”</p>
+</section>
+<section id="jupyter-books">
+<h2>3 Jupyter-books<a class="headerlink" href="#jupyter-books" title="Permalink to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span> <span class="mi">1</span> <span class="o">+</span> <span class="mi">1</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="github">
+<h2>4. GitHub<a class="headerlink" href="#github" title="Permalink to this heading">#</a></h2>
+<p>Repository and deployment</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./act3/part3"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="part3_2.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Normative</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../../bibliography.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Certainty, <em>γ</em> 😃 ⭕️</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#neural-correlates">Neural Correlates</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#philosophical-fit-bacon-aristotle-plato">Philosophical Fit: Bacon, Aristotle, Plato</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#synthesis-and-tension">Synthesis and Tension</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#epilogue-intelligence-progress-vs-wisdom-preservation">Epilogue: Intelligence (Progress) vs. Wisdom (Preservation)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#nietzsches-uses-and-abuses">Nietzsche’s Uses and Abuses</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#retake-intelligence-progress-vs-wisdom-preservation-in-a-shifting-landscape">Retake: Intelligence (Progress) vs. Wisdom (Preservation) in a Shifting Landscape</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#postscript-query">Postscript Query</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#response-to-nietzsches-on-the-uses-and-abuses-of-history-for-life">Response to Nietzsche’s <em>On the Uses and Abuses of History for Life</em></a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#nietzsches-framework-and-your-reading">Nietzsche’s Framework and Your Reading</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#accuracy-verdict">Accuracy Verdict</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#your-question-is-the-dmn-antiquarian">Your Question: Is the DMN Antiquarian?</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#final-thought">Final Thought</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-murdoch-s">The Murdoch’s</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#james-as-tpn-task-positive-network">James as TPN (Task-Positive Network)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rupert-as-sn-salience-network">Rupert as SN (Salience Network)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lachlan-as-dmn-default-mode-network">Lachlan as DMN (Default Mode Network)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion">Conclusion</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pairs-jh">1 PAIRS@JH</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#elevator-pitch-for-python">Elevator Pitch for Python</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#heres-why">Here’s why:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#elevator-pitch">2 Elevator Pitch</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-books">3 Jupyter-books</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#github">4. GitHub</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  Copyright © 2025 Zeus
+
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
